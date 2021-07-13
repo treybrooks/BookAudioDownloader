@@ -69,7 +69,7 @@ SPLASH_LOG_400 = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-#    'bookaudio.pipelines.BookaudioPipeline': 1,
+   'bookaudio.pipelines.BookaudioPipeline': 1,
 }
 FILES_STORE = './books'
 
